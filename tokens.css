@@ -1,0 +1,59 @@
+/* Design tokens extracted from the Figma file ("Akthar portfolio") */
+:root {
+  /* Colour */
+  --c-bg: #faf8f2;
+  --c-ink: #16232b;
+  --c-muted: #64645f;
+  --c-accent: #ff8a3d;
+  --c-accent-deep: #b74d00;
+  --c-border: #e8e1d5;
+  --c-border-soft: rgba(232, 225, 213, 0.6);
+  --c-card: rgba(255, 253, 248, 0.85);
+  --c-white: #ffffff;
+  --c-amber-50: #fffbeb;
+  --c-amber-100: #fef3c7;
+  --c-amber-200: #fde68a;
+  --c-amber-300: #fcd34d;
+  --c-amber-400: #fbbf24;
+  --c-orange-100: #ffedd5;
+  --c-yellow-100: #fef9c3;
+  --c-sky-100: #e0f2fe;
+  --c-sky-800: #075985;
+  --c-slate-900: #0f172a;
+  --c-slate-800: #1e293b;
+  --c-slate-300: #cbd5e1;
+  --c-green-50: #ecfdf5;
+  --c-green-500: #10b981;
+  --c-green-800: #065f46;
+
+  /* Typography */
+  --f-display: 'Manrope Variable', 'Manrope', system-ui, sans-serif;
+  --f-body: 'Inter Variable', 'Inter', system-ui, sans-serif;
+  --f-serif: 'Newsreader', Georgia, serif;
+  --f-grotesk: 'Space Grotesk Variable', 'Space Grotesk', system-ui, sans-serif;
+  --f-mono: 'Cousine', 'Liberation Mono', 'Courier New', ui-monospace, monospace;
+
+  /* Layout */
+  --page-max: 1280px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --section-y: clamp(56px, 8vw, 80px);
+  --nav-h: 73px;
+
+  /* Radii */
+  --r-sm: 6px;
+  --r-md: 12px;
+  --r-lg: 16px;
+  --r-xl: 24px;
+  --r-pill: 9999px;
+
+  /* Shadows */
+  --sh-card: 8px 18px 20px rgba(0, 0, 0, 0.25);
+  --sh-step: -2px -2px 20px rgba(0, 0, 0, 0.25), 5px 8px 20px rgba(0, 0, 0, 0.25);
+  --sh-tool: -5px -5px 20px rgba(0, 0, 0, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.2);
+  --sh-btn: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --sh-mock: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --sh-browser: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
